@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&family=Poppins:wght@200&family=Sedgwick+Ave+Display&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.btn{
+    text-transform: uppercase;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: white;
+    border: 1px solid #292929;
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn:hover{
+    border:1px solid #292929;
+    background-color: transparent;
+    color: black;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+} 
+
+body {
+    background-color: #deece7;
+}
+
+.contianer {
+    width: 100%;
+
+    min-height: 100%;
+
+}
+
+.contianer video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 777;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgb(98, 97, 97);
+    z-index: 10000;
+
+
+}
+
+.sliding-text {
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(98, 97, 97);
+}
+
+.sliding-text span {
+    font-size: 1.5rem;
+    margin-right: 3%;
+    font-weight: 600;
+
+}
+
+.static-text {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+.contact-us,
+.whatsapp,
+.privacy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-content {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #deece7;
+}
+
+.navbar-content .logo-heading {
+    font-family: 'Nova Oval', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 1.7rem;
+}
+
+.navbar-content .logo-heading span {
+    color: #f03f5c;
+}
+
+.navbar-content .navbar-icons {
+    font-size: 1.8rem;
+    margin-right: 2%;
+}
+
+.navbar-content .navbar-icons a {
+    color: #292929;
+    margin-right: 25px;
+}
+
+.mens-collection {
+    width: 100%;
+    padding-top: 5%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.collection-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.mens-collection .collection-side-image {
+    width: 50%;
+    margin-right: 5%;
+    transition: all .3s;
+    margin: 2%;
+}
+.women-collection .collection-side-image {
+    width: 50%;
+    margin-right: 5%;
+    transition: all .3s;
+    margin: 2%;
+}
+
+.collection-side-image img {
+    width: 100%;
+}
+.collection-heading{
+    /* background-color: #f03f5c; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2.5rem;
+    margin: 3%;
+    font-weight: 900;
+
+}
+.collection-cards {
+    width: 50%;
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.collection-cards img {
+    width: 30%;
+    height: 50%;
+    /* background-color: yellow; */
+}
+
+.collection-cards .cards-first-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.collection-cards .cards-first-row .card1 ,
+.collection-cards .cards-second-row .card1  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+}
+.collection-cards .cards-first-row .card1 p ,
+.collection-cards .cards-second-row .card1 p {
+    margin-top: 1%;
+}
+.collection-cards .cards-first-row .card1 h1 ,
+.collection-cards .cards-second-row .card1 h1 {
+    margin-top: 1%;
+}
+.collection-cards .cards-first-row .card1 .btn ,
+.collection-cards .cards-second-row .card1 .btn {
+    margin-top: 2%;
+}
+
+.collection-cards .cards-second-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.women-collection {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    background-color: white;
+}
+
+.pocket-watches{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.cards-container .cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.cards-container .cards .card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+}
+.cards-container .cards .card p{
+    margin-top: 2%;
+}
+.cards-container .cards .card .btn{
+    margin-top: 2%;
+    width: 180px;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+}
+
+.about-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.about-container img{
+    width: 100%;
+    height: 100%;
+}
+.about-container .content{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(57, 57, 57, 0.2);
+    padding: 3%;
+    border-radius: 10px;
+    animation-name: slideRight;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-delay: 3s;
+    animation-duration: 2s;
+
+}
+.about-container .content h1{
+    font-size: 2.8rem;
+    margin-bottom: 6%;
+    color: white;
+}
+.about-container .content p{
+    font-size: 1.4rem;
+    word-spacing: 1px;
+    margin-bottom: 6%;
+    color: white;
+}
+.about-container .content .btn{
+    margin-top: 6%;
+    font-weight: 900;
+    width: 70%;
+}
+@keyframes slideRight {
+    0%{
+        opacity: 0;
+        transform: translateX(-110px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
